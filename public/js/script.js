@@ -35,7 +35,7 @@ no_button.addEventListener('click', () => {
     
     // Change the banner source only on the first click
     if (clicks === 0) {
-        banner.src = "public/images/no.jpeg";
+        banner.src = "public/images/no.png";
         refreshBanner();
     }
     clicks++;
