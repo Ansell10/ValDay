@@ -1,6 +1,6 @@
 body {
     background-color: #f8d7d9; /* Pink background */
-    font-family: 'Dancing Script', cursive; /* Use Dancing Script font */
+    font-family: 'Dancing Script'; /* Use Dancing Script font */
     margin: 0;
     padding: 0;
     display: flex;
