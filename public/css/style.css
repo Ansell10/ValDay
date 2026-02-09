@@ -23,7 +23,7 @@ body {
 }
 
 h1, h2 {
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Dancing Script';
     font-size: 2rem;  /* Ukuran font heading */
     color: #333;
     margin: 20px 0; /* Jarak atas dan bawah untuk heading */
