@@ -1,0 +1,97 @@
+body {
+    background-color: #f8d7d9; /* Pink background */
+    font-family: 'Dancing Script', cursive; /* Use Dancing Script font */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+    background-color: white; /* Background putih di belakang konten */
+    border-radius: 20px; /* Sudut melengkung pada kontainer */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Bayangan lembut untuk efek 3D */
+}
+
+h1, h2 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2rem;  /* Ukuran font heading */
+    color: #333;
+    margin: 20px 0; /* Jarak atas dan bawah untuk heading */
+}
+
+.banner-gif {
+    width: 50%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 15px; /* Sudut melengkung pada gambar */
+    overflow: hidden; /* Menjaga gambar tidak meluber ke luar sudut melengkung */
+}
+
+.banner-gif img {
+    width: 50%;
+    height: auto;
+    object-fit: cover; /* Memastikan gambar terisi penuh dengan menjaga rasio */
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    flex-direction: row;
+    align-items: end;
+    flex-wrap: wrap;
+}
+
+button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    height: 40px;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px; /* Sudut tombol yang melengkung */
+    transition: background-color 0.3s ease; /* Animasi halus ketika hover */
+}
+
+#no-button {
+    background-color: #f28a8c; /* Soft red background */
+}
+
+#yes-button {
+    background-color: #8dbf80; /* Soft green background */
+}
+
+/* Efek saat hover */
+#no-button:hover {
+    background-color: #f16f6b; /* Sedikit lebih gelap saat hover */
+}
+
+#yes-button:hover {
+    background-color: #76a96f; /* Sedikit lebih gelap saat hover */
+}
+
+.message {
+    display: none;
+}
+
+
+/* Make responsive for mobile */
+@media (max-width: 768px) {
+    body {
+        padding: 0 20px;
+    }
+}
